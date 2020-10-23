@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+<table class="center">
+  <tr>
+    <td colspan="3`">
+      <form>
+        <textarea rows="4" colums="37" id="screen"></textarea>
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td><button onclick="output('1')">1</button></td>
+    <td><button onclick="output('2')">2</button></td>
+    <td><button onclick="output('3')">3</button></td>
+  </tr>
+  <tr>
+    <td><button onclick="output('4')">4</button></td>
+    <td><button onclick="output('5')">5</button></td>
+    <td><button onclick="output('6')">6</button></td>
+  </tr>
+  <tr>
+    <td><button onclick="output('7')">7</button></td>
+    <td><button onclick="output('8')">8</button></td>
+    <td><button onclick="output('9')">9</button></td>
+  </tr>
+  <tr>
+    <td><button onclick="output('+')">+</button></td>
+    <td><button onclick="output('/')">/</button></td>
+    <td><button onclick="output('*')">*</button></td>
+  </tr>
+  <tr>
+    <td colspan="3"><button id="solve" onclick="solve()">Solve</button></td>
+  </tr>
+</table>
+{% endblock content %}

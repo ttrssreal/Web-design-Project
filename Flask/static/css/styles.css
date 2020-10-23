@@ -1,0 +1,49 @@
+#heading {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table button {
+	width: 100%;
+}
+
+#solve {
+	background-color: #90fb89;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	text-align: center;
+}
+
+ul li {
+	display: inline;
+}
+
+li a {
+	color: #87a3bf;
+	text-align: center;
+	padding: 100px, 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #2d3844;
+}
+
+footer {
+	text-align: center;
+}
+
+/* main > p, main > textarea {
+	text-align: center;
+} */
